@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+<!-- This is my header -->
+    <header>
+        <div>
+            <h1>Thanh Chi La</h1>
+            <div class="title">
+                <h2>Software Developer</h2>
+            </div>
+            <div class="nav"> <!-- Navigation bar -->
+                <a class="active" href="#Home">Home</a>
+                <a href="#Introduction">Introduction</a>
+                <a href="#Journey">Journey</a>
+                <a href="#Contact">Contact</a>
+            </div>
+        </div>
+    </header>
+<hr>
+
+<!-- Divide main into 3 sections-->
+    <main>
+        <section id="Introduction">
+            <div class="my-image">
+                <img src="" alt="Image of me">
+            </div>
+            <div>
+                <h2>Introduction</h2>
+            </div>
+            <article>
+                <p> Hello! My name is Thanh Chi La. I live in Sunnyvale, California.</p>
+                <p>I am currently a Software Engineer in training at Thinkful.</p>
+                <p>I am interested in:</p>
+                <ul>
+                    <li>Communicate with other developers and learning from their stories.</li>
+                    <li>Having fun coding. Since you can create a lot of cool programs.</li>
+                    <li>Explore the community and meet different developers.</li>
+                </ul>
+                <p>Please have a look at my personal website. Feel free to <a href="#Contact" class="contact-link">contact me</a> any time!</p>
+            </article>
+        </section>
+<hr>
+<br>
+<!--Journey at Thinkful, will format p with wrapper-->
+        <section id="Journey">
+            <div>
+                <h2>Journey at Thinkful</h2>
+            </div>
+            <article>
+                <div class="wrapper"> <!--create a wrapper class, change in style.css-->
+                    <p>After I finished my Associate Degree as a Network Technician at Mission College. I enrolled to Software Flex program at <a href="https://www.thinkful.com/">Thinkful</a>. While I can start my career as a network technician, I want to expand my knowledge about coding in order to pursue more advance careers, such as Cloud Developer, or Cyber Security Engineer.
+                    </p>
+                    <p>As a student at <a href="https://www.thinkful.com/">Thinkful</a>, I am learning how to code using Javacript, HTML, and CSS. Using those three languages I am able to create my own website to showcase my skills. On top of that, <a href="https://www.thinkful.com/">Thinkful</a> has been providing a lot of resrouces to help me success in my journey to become a software developer. Their <a href="https://www.thinkful.com/bootcamp/web-development/#introduction">Software Engineering Bootcamp</a> offers with either full time or part time, which fit my schedule.
+                    </p>
+                    <p>If you are looking to hire a new developer or just simply connect with me, feel free to <a href="#Contact" class="contact-link">reach out</a>. I am excited to get to know other developers, let learn and communicate!!!</p>
+                </div>
+            </article>
+        </section>
+<hr>
+<br>
+<!--Create 2 contacts links by images, need an image folder-->
+        <section id="Contact">
+            <div>
+                <h2>Contact Thanh</h2>
+            </div>
+            <div>
+                <p class="contact-text">Please contact me at:</p> <!--Create class contact text to adjust later-->
+                <ol>
+                    <li><a href="https://www.linkedin.com/in/thanh-la-161622219/">Linkedin</a></li>
+                    <li><a href="https://github.com/thanhla92">Github</a></li>
+                    <li>Email: thanh.chi.la@gmail.com</li>
+                </ol>
+            </div>
+            <div>
+                <p class="contact-text">Or click on the image below:</p>
+            </div>
+            <div class="image-container"> <!--create class image-container and contact-icon for style.css-->
+                
+                <a href="https://www.linkedin.com/in/thanh-la-161622219/">
+                    <img src="Images/linkedin-icon.png" alt="Image Linkedin icon" class="contact-icon">
+                </a>
+                <a href="https://github.com/thanhla92">
+                    <img src="Images/github-icon.png" alt="Image Github icon" class="contact-icon">
+                </a>
+            </div>
+        </section>
+    <hr>
+    <br>
+    </main>
+
+<!--Footer with copyright symbol follow with my full name here-->
+    <footer>
+        <p>© Thanh Chi La</p>
+    </footer>
+    <script scr="script.js"></script>
+  </body>
+</html>
