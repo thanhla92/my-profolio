@@ -221,6 +221,8 @@ html, body {
   hr {
     border: none;
     height: 2px;
+    color: #333;
     background-color: #ccc;
     margin: 20px 0;
+    width: 1000px;
   }
